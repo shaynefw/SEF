@@ -1,0 +1,45 @@
+#contributionList {
+    list-style: none;
+}
+/* add background image to container */
+html {
+    background-image: url('../img/bg-jam.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-color: #fff0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.6);
+    width: fit-content;
+}
+
+tbody {
+    overflow-y: scroll;
+    height: 100px;
+}
+
+.scroll {
+    overflow-y: scroll;
+    height: 20em;
+}
+
+.scroll2 {
+    overflow-y: scroll;
+    height: 5em;
+}
+
+@media (max-width: 499px) {
+    html {
+        background-image: url('../img/sm-bg-jam.jpg');
+        background-repeat: no-repeat;
+        background-size: auto;
+        height: 100%;
+        overflow: hidden;
+    }
+}
