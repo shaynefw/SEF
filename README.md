@@ -6,6 +6,8 @@ Family Estate Fund Tracker is a simple, easy-to-use website designed for trackin
 
 ## Usage
 
+https://shaynefw.github.io/SEF/
+
 The website is intuitive and straightforward to use.
 
 - To add a contribution, use the `addContribution` function in the JavaScript file (`app.js`), passing the contributor's name, contribution amount, and any notes.
